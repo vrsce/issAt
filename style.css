@@ -1,0 +1,40 @@
+
+        body {
+            background-color: aqua;
+        }
+
+        h1 {
+            margin-left: 2%;
+        }
+        h2 {
+            margin-left: 2%;
+        }
+        h3 {
+            margin-left: 2%;
+        }
+
+        .topz {
+            margin-top: 2%;
+            color: blue;
+        }
+
+        .pusho {
+            margin-left: 5%;
+        }
+
+        .divider {
+            color: #FFF;
+            font-size: 3em;
+        }
+
+        .issPic {
+            position: relative;
+            left: -5%;
+            animation: issMove 100s infinite linear;
+        }
+
+
+        @keyframes issMove{
+            0%{left: -5%}
+            100%{left: 105%}
+        }
